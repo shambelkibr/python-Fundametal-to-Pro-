@@ -1,5 +1,5 @@
 from turtle import*
-forward(100)           """the the frist"""
+forward(100)          
 right(90)
 forward(100)
 
