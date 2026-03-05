@@ -1,19 +1,19 @@
-# x=lambda a,b:a*b
-# print(x(3,8))
+x=lambda a,b:a*b
+print(x(3,8))
 
 
-# def recursion(k):
-#     n=5
-#     if k < n:  # Base Case Check
-#         result = k + recursion(k +1)  # Recursive Call
-#         print(f"Returning: {result} (k={k})")
-#         return result  # Returning the result up the call stack
-#     else:  # Base Case
-#         return 0  # Stops recursion when k is no longer > 0
+def recursion(k):
+    n=5
+    if k < n: 
+        result = k + recursion(k +1)  
+        print(f"Returning: {result} (k={k})")
+        return result 
+    else: 
+        return 0  
+print("Recursion Example Results")
+recursion(1)
 
-# # Test the function
-# print("Recursion Example Results")
-# recursion(1)
+
 
 '''Python List Methods with Code Examples and Explanations
 Below are the methods you listed, their usage, and sample code to demonstrate how they work.
@@ -83,7 +83,8 @@ for index, value in enumerate(my_list):
 Index: 0, Value: a
 Index: 1, Value: b
 Index: 2, Value: c '''
-for specific value is my_list = [1, 2, 2, 3, 3, 4]
+
+
 
 # Find indices of the value 2
 
